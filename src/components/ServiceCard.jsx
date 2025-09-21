@@ -4,9 +4,7 @@ import { Link } from 'react-router-dom'
 function ServiceCard({ icon, title, description, link }) {
   return (
     <Card className="service-card">
-      <div className="service-icon">
-        <img src={icon} alt={title} />
-      </div>
+    
       <h3 className="service-title">{title}</h3>
       <p className="service-description">{description}</p>
       
