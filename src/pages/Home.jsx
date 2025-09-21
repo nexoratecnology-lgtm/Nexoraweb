@@ -3,29 +3,29 @@ import ServiceCard from '../components/ServiceCard'
 import Button from '../components/Button'
 import './Home.css'
 import { Link } from 'react-router-dom'
-import code from '../assets/icons/code.svg'
+import code from "../assets/icons"
 import cloud from '../assets/icons/cloud.svg'
 import security from '../assets/icons/security.svg'
 import consulting from '../assets/icons/consulting.svg'
 function Home() {
   const services = [
     {
-      icon: '../assets/icons/code.svg',
+      icon: '../assets/icons/images/code.svg',
       title: 'Desarrollo de Software',
       description: 'Creamos aplicaciones personalizadas que impulsan tu negocio hacia el futuro.'
     },
     {
-      icon: '../assets/icons/cloud.svg',
+      icon: '../assets/icons/images/cloud.svg',
       title: 'Soluciones en la Nube',
       description: 'Migración y gestión de infraestructura cloud para máxima escalabilidad.'
     },
     {
-      icon: '../assets/icons/security.svg',
+      icon: '../assets/icons/images/security.svg',
       title: 'Ciberseguridad',
       description: 'Protección integral de tus activos digitales contra amenazas modernas.'
     },
     {
-      icon: '../assets/icons/consulting.svg',
+      icon: '../assets/icons/images/consulting.svg',
       title: 'Consultoría Tecnológica',
       description: 'Asesoramiento experto para optimizar tus procesos tecnológicos.'
     }
