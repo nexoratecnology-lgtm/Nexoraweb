@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Button from './Button.jsx'
 import './Header.css'
-import logo from "../assets/icons/images/Logo.png"
+import logo from "../assets/icons/images/nexoralogo.png"
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
@@ -15,7 +15,7 @@ function Header() {
 
 
 
-  
+
   return (
     <header className="header">
       <nav className="navbar">
