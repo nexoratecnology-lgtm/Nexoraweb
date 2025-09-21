@@ -3,10 +3,6 @@ import ServiceCard from '../components/ServiceCard'
 import Button from '../components/Button'
 import './Home.css'
 import { Link } from 'react-router-dom'
-import code from "../assets/icons"
-import cloud from '../assets/icons/cloud.svg'
-import security from '../assets/icons/security.svg'
-import consulting from '../assets/icons/consulting.svg'
 function Home() {
   const services = [
     {
