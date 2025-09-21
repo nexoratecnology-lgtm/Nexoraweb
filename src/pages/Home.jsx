@@ -6,22 +6,22 @@ import { Link } from 'react-router-dom'
 function Home() {
   const services = [
     {
-      icon: '../assets/icons/images/code.svg',
+      icon: '../assets/icons/images/code.png',
       title: 'Desarrollo de Software',
       description: 'Creamos aplicaciones personalizadas que impulsan tu negocio hacia el futuro.'
     },
     {
-      icon: '../assets/icons/images/cloud.svg',
+      icon: '../assets/icons/images/cloud.png',
       title: 'Soluciones en la Nube',
       description: 'Migración y gestión de infraestructura cloud para máxima escalabilidad.'
     },
     {
-      icon: '../assets/icons/images/security.svg',
+      icon: '../assets/icons/images/security.png',
       title: 'Ciberseguridad',
       description: 'Protección integral de tus activos digitales contra amenazas modernas.'
     },
     {
-      icon: '../assets/icons/images/consulting.svg',
+      icon: '../assets/icons/images/consulting.png',
       title: 'Consultoría Tecnológica',
       description: 'Asesoramiento experto para optimizar tus procesos tecnológicos.'
     }
