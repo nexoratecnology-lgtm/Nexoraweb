@@ -10,6 +10,12 @@ function Header() {
     setIsMenuOpen(!isMenuOpen)
   }
 
+
+
+
+
+
+  
   return (
     <header className="header">
       <nav className="navbar">
