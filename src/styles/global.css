@@ -1,8 +1,8 @@
 :root {
   --primary-color: #4B0082;       /* Morado oscuro */
   --secondary-color: #2C003E;     /* Morado profundo / casi negro */
-  --accent-color: #FFD700;        /* Dorado */
-  --accent-hover: #FFC107;        /* Dorado más brillante para hover */
+  --accent-color: #ceaf00;        /* Dorado */
+  --accent-hover: #d8a200;        /* Dorado más brillante para hover */
   --text-primary: #000000;        /* Negro */
   --text-secondary: #000000;      /* Blanco */
   --bg-light: #F5F5F5;            /* Fondo gris muy claro / cercano al blanco */
