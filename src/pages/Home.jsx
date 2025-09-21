@@ -10,22 +10,22 @@ import consulting from '../assets/icons/consulting.svg'
 function Home() {
   const services = [
     {
-      icon: {code},
+      icon: '../assets/icons/code.svg',
       title: 'Desarrollo de Software',
       description: 'Creamos aplicaciones personalizadas que impulsan tu negocio hacia el futuro.'
     },
     {
-      icon: {cloud},
+      icon: '../assets/icons/cloud.svg',
       title: 'Soluciones en la Nube',
       description: 'Migración y gestión de infraestructura cloud para máxima escalabilidad.'
     },
     {
-      icon: {security},
+      icon: '../assets/icons/security.svg',
       title: 'Ciberseguridad',
       description: 'Protección integral de tus activos digitales contra amenazas modernas.'
     },
     {
-      icon: {consulting},
+      icon: '../assets/icons/consulting.svg',
       title: 'Consultoría Tecnológica',
       description: 'Asesoramiento experto para optimizar tus procesos tecnológicos.'
     }
