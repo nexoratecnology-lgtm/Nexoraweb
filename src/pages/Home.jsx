@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 function Home() {
   const services = [
     {
-      icon: '/src/assets/icons/code.svg',
+      icon: './src/assets/icons/code.svg',
       title: 'Desarrollo de Software',
       description: 'Creamos aplicaciones personalizadas que impulsan tu negocio hacia el futuro.'
     },
